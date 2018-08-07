@@ -1,0 +1,32 @@
+{
+  "name": "qsnark",
+  "version": "0.0.1",
+  "description": "qsnart js sdk ",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperchaincn/qsnark-nodejs-sdk.git"
+  },
+  "author": "wanhuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperchaincn/qsnark-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/hyperchaincn/qsnark-nodejs-sdk#readme",
+  "dependencies": {
+  
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
